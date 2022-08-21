@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply antialiased;
+  }
+}
+
+.flag-select {
+  @apply pb-0 !important;
+}
+
+.flag-select button {
+  @apply hover:border-primary-brand-color focus:border-primary-brand-color border-gray-200 h-14 border-2;
+}
+
+.ReactCollapse--collapse {
+  @apply transition-all;
+}
